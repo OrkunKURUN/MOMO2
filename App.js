@@ -1,6 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
 
+function Submit() {
+  return (
+    <button>SUBMIT</button>
+  );
+}
+function SelectFile() {
+  return (
+    <button>SELECT A PHOTO</button>
+  );
+}
+function InputVIN() {
+  return(
+    <input type="text" placeholder="VIN NUMBER"></input>
+    );
+}
+
 function App() {
   return (
     <div className="App">
@@ -22,8 +38,15 @@ function App() {
       <header>
         <h1>MOMO Car Identifier</h1>
       </header>
-      <h2>Enter VIN Number</h2>
-      <h2>Upload Photo</h2>
+      <div>
+        <h2>Enter VIN Number</h2>
+        <InputVIN />
+      </div>
+      <div>
+        <h2>Upload Photo</h2>
+        <SelectFile />
+      </div>
+      <Submit />
     </div>
   );
 }
