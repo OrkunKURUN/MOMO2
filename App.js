@@ -18,7 +18,12 @@ function App() {
           Learn React
         </a>
       </header>
-      Orkun
+      Written by Orkun
+      <header>
+        <h1>MOMO Car Identifier</h1>
+      </header>
+      <h2>Enter VIN Number</h2>
+      <h2>Upload Photo</h2>
     </div>
   );
 }
